@@ -1,0 +1,19 @@
+{
+  "name": "kalendarz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^2.10.0",
+    "parcel": "^1.12.4",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-icons": "^3.9.0",
+    "styled-components": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/index.html",
+    "dev": "parcel src/index.html"
+  }
+}
